@@ -4,6 +4,7 @@
 
 This is a simple Django-based project that allows users to toggle between **Light** and **Dark** themes on a website. The theme preference is stored both in the browser's localStorage and in the database to persist across sessions.
 
+![Light Theme Webpage](static/images/themes.png)
 
 ## Changes
 
