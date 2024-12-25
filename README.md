@@ -1,6 +1,6 @@
 # light-dark-theme-django
 
-This project has some changes over the [light-darm-mode-django](https://github.com/divanov11/light-dark-mode-django) project by [divanov11](https://github.com/divanov11).
+This project has some changes over the [light-dark-mode-django](https://github.com/divanov11/light-dark-mode-django) project by [divanov11](https://github.com/divanov11).
 
 This is a simple Django-based project that allows users to toggle between **Light** and **Dark** themes on a website. The theme preference is stored both in the browser's localStorage and in the database to persist across sessions.
 
@@ -38,11 +38,11 @@ The following key changes were made:
 
    ```bash
    git clone https://github.com/vaidik1n1ly/light-dark-theme-django.git
-   cd light-dark-theme-django
    
-2. Create a virtual environment (recommended):
+2. Create a virtual environment inside project directory (recommended):
 
    ```bash
+   cd light-dark-theme-django
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    
