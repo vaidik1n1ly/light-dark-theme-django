@@ -8,5 +8,4 @@ class BaseConfig(AppConfig):
     def ready(self):
         from .signals import create_default_user_and_setting
 
-        # connecting signal
         post_migrate.connect(create_default_user_and_setting, sender=self)
